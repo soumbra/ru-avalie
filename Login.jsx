@@ -9,13 +9,13 @@ const Login = () => {
                 sx={{
                     display: "flex",
                     flexDirection: "column",
-                    alignItems: "center",
-                    marginTop: 2,
-                    fontWeight: "800",
-                    fontSize: 84
+                    alignItems: "flex-start",
+                    marginTop: 20,
+                    fontWeight: "900",
+                    fontSize: 84,
                 }}
             >
-                RU.<br></br>Avalie
+                RU. <tag>Avalie</tag>
             </Typography>
             <Box
                 sx={{
@@ -27,7 +27,7 @@ const Login = () => {
 
             >
                 <Typography
-                    component="h1"
+                    component="h2"
                     variant="h5"
                 >
                     Login com o SIGAA
@@ -37,6 +37,7 @@ const Login = () => {
                     required
                     fullWidth
                     autoFocus
+                    standard
 
                     label="Login"
                     id="login"
@@ -48,6 +49,7 @@ const Login = () => {
                     margin="normal"
                     required
                     fullWidth
+                    standard
 
                     label="Senha"
                     id="password"
