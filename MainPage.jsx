@@ -13,8 +13,8 @@ const MainPage = () => {
                 <MyMenu2 />
                     <Container sx={{mt:8}}> 
                         <Routes>
-                            <Route path="votarRuAvalie" element={<Votar />}/>
-                            <Route path="resultadosRuAvalie" element={<Resultados />} />
+                            <Route path="votarRuAvalie" element={<Votar data="Almoço 12/05/2024" />}/>
+                            <Route path="resultadosRuAvalie" element={<Resultados data="12/04/2021" />} />
                         </Routes>
                     </Container>
             </BrowserRouter>
