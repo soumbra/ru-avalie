@@ -1,0 +1,11 @@
+--------- DOM ---------  
+
+npm install react-router-dom
+
+
+--------- MATERIAL UI --------- 
+npm install @mui/material @emotion/react @emotion/styled
+npm install @fontsource/roboto (Adicionar Poppins dps)
+npm install @mui/icons-material
+npm install @mui/material @emotion/react @emotion/styled
+
