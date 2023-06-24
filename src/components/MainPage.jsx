@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import MyMenu2 from "./Menuv2"
 import { Container, Typography } from "@mui/material"
 //Rotas
-import Votar from "./Votação/Votar"
-import Resultados from "./Resultados/Resultados"
+import Votar from "./Votar"
+import Resultados from "./Resultados"
 
 //Setando as rotas do projeto (install react-router-dom)
 const MainPage = () => {
